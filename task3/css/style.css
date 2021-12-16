@@ -1,0 +1,109 @@
+/* 
+### Primary
+
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Fonts
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 200, 400, 600
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+  font-size: 15;
+}
+
+.bt-red {
+  border-top: 4px solid #ea5353;
+}
+
+.bt-cyan {
+  border-top: 4px solid #45d3d3;
+}
+
+.bt-orange {
+  border-top: 4px solid #fcaf4a;
+}
+
+.bt-blue {
+  border-top: 4px solid #549ef2;
+}
+
+.heading {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.heading h1 {
+  color: #4c4e61;
+  font-weight: 200;
+  font-size: 36px;
+}
+
+.heading h2 {
+  color: #4c4e61;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.heading p {
+  color: #a3a5ae;
+}
+
+@media (max-width: 991.9px) {
+  .heading {
+    width: 100%;
+  }
+  .heading h1, .heading h2 {
+    font-size: 28px;
+  }
+  .heading p {
+    font-size: 14px;
+  }
+}
+
+.myCard {
+  padding: 2rem 1.5rem;
+  background-color: #fff;
+  border-radius: 7px;
+  -webkit-box-shadow: 2px 5px 10px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.myCard h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.myCard p {
+  font-size: 14px;
+  color: #a3a5ae;
+}
+/*# sourceMappingURL=style.css.map */

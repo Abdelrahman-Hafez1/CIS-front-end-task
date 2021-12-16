@@ -1,0 +1,94 @@
+/* 
+### Primary
+
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Fonts
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 200, 400, 600
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-size: 15;
+}
+.bt-red{
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+.bt-cyan{
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+.bt-orange{
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+.bt-blue{
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.heading{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+    h1{
+        color: hsl(234, 12%, 34%);
+        font-weight: 200;
+        font-size: 36px;
+    }
+    h2{
+        color: hsl(234, 12%, 34%);
+        font-weight: 600;
+        font-size: 36px;
+    }
+    p{
+        color: hsl(229, 6%, 66%);
+    }
+    @media (max-width: 991.9px) {
+        width: 100%;
+        h1,h2{
+            font-size: 28px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+}
+.myCard{
+    padding: 2rem 1.5rem;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 2px 5px 10px 5px rgba(0,0,0,0.2);
+    h3{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    p{
+        font-size: 14px;
+        color: hsl(229, 6%, 66%);
+    }
+
+}
